@@ -29,7 +29,7 @@ const Auth = () => {
         const { username, password, phoneNumber, avatarURL } = form;
 
         // const URL = 'http://localhost:5000/auth';
-        const URL = 'https://moonlit-strudel-72980b.netlify.app/auth'
+        const URL = 'https://medical-chat-application.onrender.com/auth'
        
 
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
