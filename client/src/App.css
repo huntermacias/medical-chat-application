@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #005fff;
+    --primary-color: #99008f;
     --primary-color-alpha: #005fff1a;
   }
   
@@ -27,7 +27,7 @@
     justify-content: center;
   
     padding: 2rem;
-    background: #005fff;
+    background: #1a1a21;
   }
   
   .auth__form-container_image {
@@ -1719,6 +1719,7 @@
     border-radius: 50%;
     z-index: 2;
   }
+ 
   
   .channel-list__container-responsive {
     display: none;
